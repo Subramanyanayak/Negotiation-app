@@ -12,7 +12,7 @@ Employer and employee enter salary values and the app tells if the expectations 
 ![ezgif com-gif-maker (7)](https://user-images.githubusercontent.com/64644506/95287379-5d100100-0883-11eb-80a8-6ccdfa0f4426.gif)
 
 
-#Quick Start
+# Quick Start
 
 * Install dependencies
   
