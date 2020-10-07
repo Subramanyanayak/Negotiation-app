@@ -12,6 +12,9 @@ class Employer extends Component {
     this.props.employerInput(this.state.title);
     
   }
+  alertMsg = () =>{
+	  alert('Input field cannot be empty')
+  }
 
   onChange = (e) => this.setState({ title: e.target.value});
 
@@ -28,7 +31,7 @@ class Employer extends Component {
              onChange={this.onChange}
           />
         <br></br>
-          <Button  value="submit" onClick={this.slideChange}>
+          <Button  value="submit" onClick={this.state.title == ''? this.alertMsg : this.slideChange}>
            Submit
          </Button>
       </form>
